@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;  
+  vertical-align: baseline;
 }
 
 article, aside, details, figcaption, figure,
@@ -66,66 +66,47 @@ body {
   width: 100%;
   text-align: center;
 }
+
 h2 {
   text-transform: uppercase;
   font-size: 50px;
-  font-weight: 120;
+  font-weight: 700; /* Adjusted from 120 for better support */
   color: #ffffff;
   letter-spacing: 0.05em;
 }
-h1::after {
-  content: '';
-  width: 80px;
-  display: block;
-  background: #fff;
-  height: 10px;
-  margin: 30px auto;
-  line-height: 1.1;
+
+/* New styles for the centered text box */
+.centered-text-box {
+  background-color: white; /* White background */
+  color: black; /* Black text color */
+  margin: 20px auto; /* Centering the box */
+  padding: 20px; /* Padding inside the box */
+  width: 80%; /* Adjust width as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Font styling */
+  font-size: 20px; /* Font size */
 }
-p {
-  margin: 0 0 30px 0;
-  font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+
+@media only screen and (max-width: 600px) {
+  .centered-text-box {
+    width: 95%; /* Adjusts width for smaller screens */
+    padding: 10px; /* Adjusts padding for smaller screens */
+    font-size: 16px; /* Adjusts font size for smaller screens */
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 15px;
+  h2 {
+    font-size: 30px; /* Adjusted for better responsiveness */
   }
 }
 
 @media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
+  h2 {
+    font-size: 15px; /* Adjusted for consistency */
   }
-  h1::after {
-    height: 8px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  #intro {
-    padding: 0 10px;
-  }
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 6px;
-  }
-  p {
-    font-size: 18px;
-  }
-  .btn {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 4px;
+  .centered-text-box {
+    font-size: 14px; /* Further adjustment for very small screens */
   }
 }
