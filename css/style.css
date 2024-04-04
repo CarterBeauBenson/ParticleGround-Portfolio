@@ -93,11 +93,11 @@ p {
   color: #333333; /* Dark gray text for softer contrast */
   margin: 20px auto; /* Centered alignment */
   padding: 30px; /* Increased padding for more space */
-  width: 50%; /* Adjusted width for better text flow */
+  width: 30%; /* Adjusted width for better text flow */
   border-radius: 15px; /* Slightly larger radius for softer corners */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Softer shadow */
   font-family: 'Roboto', sans-serif; /* Font styling */
-  font-size: 16px; /* Increased font size for readability */
+  font-size: 12px; /* Increased font size for readability */
   text-align: justify; /* Justified text alignment */
 }
 
