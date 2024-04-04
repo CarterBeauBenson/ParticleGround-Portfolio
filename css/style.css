@@ -88,6 +88,19 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.centered-text-box {
+  background-color: white; /* White background for the text box */
+  color: black; /* Text color */
+  margin: 20px auto; /* Centered alignment */
+  padding: 20px; /* Padding for inner spacing */
+  width: 80%; /* Width of the box */
+  border-radius: 10px; /* Rounded corners for aesthetic appeal */
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Font styling */
+  font-size: 20px; /* Font size */
+}
+
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 15px;
