@@ -93,11 +93,11 @@ p {
   color: black; /* Text color */
   margin: 20px auto; /* Centered alignment */
   padding: 20px; /* Padding for inner spacing */
-  width: 40%; /* Width of the box */
+  width: 30%; /* Width of the box */
   border-radius: 10px; /* Rounded corners for aesthetic appeal */
   box-shadow: 0px 4px 6px rgba(0,0,0,0.1); /* Subtle shadow for depth */
   font-family: 'Roboto', sans-serif; /* Font styling */
-  font-size: 12px; /* Font size */
+  font-size: 8px; /* Font size */
   text-align: justify; /* Justified text alignment */
 }
 
