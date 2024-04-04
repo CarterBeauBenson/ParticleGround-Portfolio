@@ -33,9 +33,9 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #000010;
+  background: #F7F9F9;
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: #000010;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
 }
@@ -73,7 +73,7 @@ h2 {
 
 /* Centered text box styles */
 .centered-text-box {
-  background-color: white; /* White background for contrast */
+  background-color: #F7F9F9; /* White background for contrast */
   color: black; /* Text color for readability */
   margin: 20px auto; /* Margin for auto horizontal alignment and some space from content above */
   padding: 20px; /* Padding inside the box */
